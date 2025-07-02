@@ -85,6 +85,7 @@ const AddProduct = () => {
 
       <br />
 
+
       <textarea name="" id="" placeholder='Describe your product ' className='form-control' value={product_description} onChange={(e)=>setProductdescription(e.target.value)} required></textarea>
       <br />
 
