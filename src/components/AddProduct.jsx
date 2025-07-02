@@ -88,6 +88,7 @@ const AddProduct = () => {
       <textarea name="" id="" placeholder='Describe your product ' className='form-control' value={product_description} onChange={(e)=>setProductdescription(e.target.value)} required></textarea>
       <br />
 
+
       <input type="" placeholder='Enter product cost ' className='form-control' value={product_cost} onChange={(e)=>setProductcost(e.target.value)} required/>
 
       <br />
