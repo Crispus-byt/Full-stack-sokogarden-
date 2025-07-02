@@ -45,7 +45,7 @@ const Signup = () => {
       setUsername('')
       setEmail('')
       setPassword('')
-      SetPhone('')
+       SetPhone('')
       
     } catch (error) {
       setLoading("")
