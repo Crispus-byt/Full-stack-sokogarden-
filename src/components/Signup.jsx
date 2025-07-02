@@ -43,7 +43,7 @@ const Signup = () => {
 
       // reset form
       setUsername('')
-      setEmail('')
+       setEmail('')
       setPassword('')
        SetPhone('')
       
