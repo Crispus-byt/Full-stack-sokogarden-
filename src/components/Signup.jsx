@@ -22,7 +22,7 @@ const Signup = () => {
 
     e.preventDefault()
 
-    setLoading('Loading...')
+    setLoading(true)
     try {
 
       const data=new FormData()
@@ -37,7 +37,7 @@ const Signup = () => {
       
       const response=await axios.post("http://crispus.alwaysdata.net/api/signup",data)
 
-      setLoading("")
+      setLoading(false)
       
       setSuccess(response.data.message)
 
@@ -48,7 +48,7 @@ const Signup = () => {
        SetPhone('')
       
     } catch (error) {
-      setLoading("")
+      setLoading(false)
       SetError(error.message)
 
       
@@ -87,8 +87,8 @@ const Signup = () => {
         <input type="password" placeholder='Enter your password' class='form-control' required value={password} onChange={(e)=>setPassword(e.target.value)}/>
         <br />
 
-        <input  type="submit" value='SignUp' placeholder='SignUp' 
-        className=' btn bg-success form-control text-white w-100 ' />
+        <button  type="submit" value='SignUp' placeholder='SignUp' 
+        className=' btn bg-success form-control text-white w-100 '  disabled={loading} >{loading ? 'signing up...':'sign up'}</button>
 
         
 
