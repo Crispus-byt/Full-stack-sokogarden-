@@ -93,6 +93,7 @@ const AddProduct = () => {
       <input type="" placeholder='Enter product cost ' className='form-control' value={product_cost} onChange={(e)=>setProductcost(e.target.value)} required/>
 
 
+
       <br />
 
       <h5>Upload product photo</h5>
