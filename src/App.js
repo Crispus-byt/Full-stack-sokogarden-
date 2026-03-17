@@ -22,7 +22,7 @@ function App() {
         
           <Link className='btn btn-dark text-white m-3' to='/'>Get products</Link>
           <Link className='btn btn-dark text-white m-3' to='/addproducts'>Add products</Link>
-          <Link className='btn btn-dark text-white m-3 ms-auto' to='signup'>SignUp</Link>
+          <Link className='btn btn-dark text-white m-3 ' to='signup'>SignUp</Link>
 
           <Link className='btn btn-dark text-white m-3 ' to='signin'>SignIn</Link>
 

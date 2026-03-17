@@ -7,6 +7,33 @@
   
 } */
 
+.product_img{
+  height: 320px;
+  border-radius: 2px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cardbody{
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+
+#buybtn:hover{
+  background-color: rgb(108, 136, 31);
+  -webkit-text-fill-color: white;
+  transition: 2000ms;
+
+}
+
+#buybtn{
+  background-color: rgb(28, 109, 28);
+  -webkit-text-fill-color: white;
+  
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
